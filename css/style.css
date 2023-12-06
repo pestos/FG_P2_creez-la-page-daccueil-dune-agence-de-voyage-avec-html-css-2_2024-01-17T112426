@@ -139,6 +139,68 @@ a {
     color: var(--main-bg-color)
 }
 
+.button-reserch{
+    background-color: white;
+    width: 377px;
+    height: 49px;
+    border-radius: 25px;
+    font-family: 'Raleway';font-size: 17px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+a.hover.reserch{
+    color:#DEEBFF;
+   
+}   
+
+.reserch {
+   
+    background-color: #0065FC;
+    border-color: #0065FC;
+    border-radius: 0px 25px 25px 0px;
+    width: 132px;
+    height: 49px;
+    color: white;
+    padding: 15px, 16px, 15px, 16px;
+    border: 1px;
+}
+
+.icon-local {
+
+    background-color: #0065FC;
+    border-radius: 25px 0px 0px 25px;
+    width: 132px;
+    height: 49px;
+    color: blue;
+    
+    
+    
+
+}
+
+input{
+
+    width:110px;
+    height: 49px;
+        
+}
+
+.box{
+    align-items: center ;
+}
+
+.circle{
+    background:white;
+    border-radius:50%;
+    width:24px;
+    height:24px;
+    border:2px solid #D9D9D9; 
+    text-align: center  ;
+  }
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
