@@ -10,12 +10,28 @@
 }
 
 .fa-solid {
-    color: var(--main-color);
+    color: blue;
 }
+
+.fa-location-dot {
+    color: black;
+    width: 14px;
+    height: 18px;
+}
+
+.fa-money-bill-wave {
+    color: blue;
+    width: 22px;
+    height: 22px;
+}
+
+
+
 
 body {
     display: flex;
     justify-content: center;
+    margin-top: 0px;
 }
 
 nav {
@@ -40,7 +56,6 @@ nav li {
 
 
 }
-
 
 nav ul::after {
     content: "";
@@ -197,14 +212,17 @@ a.hover.reserch {
     align-items: center;
     justify-content: center;
 
+
+}
+
+.fa-local {
+    color: black;
 }
 
 input {
 
     width: 195px;
     height: 43px;
-
-
 
 }
 
@@ -227,6 +245,7 @@ input {
 .div-activity {
     padding: 30px;
 
+
 }
 
 .activity {
@@ -242,7 +261,7 @@ input {
     width: 297.5px;
     height: 439px;
     background-color: white;
-
+    padding: 0px;
 
 }
 
@@ -410,6 +429,20 @@ footer {
     gap: 15px;
 
 }
+
+.conteneur {
+
+    display: grid;
+    grid-template-columns: 446px 446px 446px;
+}
+
+
+.conteneur .box {
+
+    height: 163px;
+
+}
+
 
 .test {
 
