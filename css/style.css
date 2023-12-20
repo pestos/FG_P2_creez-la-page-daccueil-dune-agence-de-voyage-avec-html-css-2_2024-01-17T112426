@@ -252,7 +252,7 @@ input {
 
     width: 1340px;
     height: 559.02px;
-    margin-top: 30px;
+
 
 }
 
@@ -262,24 +262,6 @@ input {
     height: 439px;
     background-color: white;
     padding: 0px;
-
-}
-
-.activity img {
-
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    object-fit: fill;
-    height: 380px;
-    width: 297.5px;
-
-}
-
-.activity .card-title {
-
-    display: center;
-    padding-left: 20px;
-
 
 }
 
@@ -436,19 +418,65 @@ footer {
     grid-template-columns: 446px 446px 446px;
 }
 
+.conteneur-activity {
+
+    display: grid;
+    grid-template-columns: 297.5px 297.5px 297.5px 297.5px;
+    gap: 30px;
+    margin: 3Opx;
+}
+
+.conteneur-activity .box {
+
+    height: 439px;
+}
+
+.conteneur-activity .card-title {
+
+    display: center;
+    padding-left: 20px;
+
+
+}
+
+.conteneur-activity .card {
+
+    width: 297.5px;
+    height: 439px;
+    background-color: white;
+    padding: 0px;
+
+
+}
+
+.conteneur-activity img {
+
+    height: 380px;
+    width: 297.5px;
+    object-fit: fill;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 5px;
+
+}
+
 
 .conteneur .box {
 
     height: 163px;
 
+
 }
 
+.box .card {
 
-.test {
+    width: 297.5px;
+    height: 439px;
+    background-color: white;
+    padding: 0px;
 
-    height: 100%;
-    width: 100%;
 }
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
