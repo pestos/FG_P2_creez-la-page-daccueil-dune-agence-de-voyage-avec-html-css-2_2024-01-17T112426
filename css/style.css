@@ -146,6 +146,7 @@ a {
 .section-title {
     margin: 0;
     font-size: 22px;
+    font-weight: 700;
 }
 
 .card {
@@ -223,6 +224,8 @@ input {
 
     width: 195px;
     height: 43px;
+    border-color: #F2F2F2;
+
 
 }
 
@@ -242,16 +245,13 @@ input {
 
 /****** Activity ***********/
 
-.div-activity {
-    padding: 30px;
 
-
-}
-
-.activity {
+.test {
 
     width: 1340px;
     height: 559.02px;
+    padding: 30px;
+
 
 
 }
@@ -494,12 +494,14 @@ footer {
 
     .populaires {
         width: 100%;
+
         margin-top: 50px;
+
     }
 
     .populaires-cards {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -514,9 +516,36 @@ footer {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .card {
+        width: 336px;
+        height: 146px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .conteneur-activity {
+        display: flex;
+        flex-direction: column;
+        height: 965px;
+    }
+
+    .conteneur-activity .card {
+        width: 315px;
+        height: 200px;
+    }
+
+    .conteneur-activity img {
+        width: 315px;
+        height: 141px;
+    }
+
     /* ... */
 }
