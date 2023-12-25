@@ -114,9 +114,9 @@ button:hover {
 
 .logo {
 
-    width: 61.09px;
-    height: 19px;
-    padding: 10%;
+    width: 65.09px;
+    height: 20px;
+    padding: 30px;
 
 }
 
@@ -125,16 +125,12 @@ button:hover {
 
     display: flex;
     padding-top: 30px;
-    ;
-
-
-
 }
 
 
 .menu {
-    display: inline;
-    padding-left: 1000px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -214,6 +210,15 @@ a.hover.reserch {
     justify-content: center;
 
 
+}
+
+.filtre-size {
+
+    font-size: 18;
+    font-weight: 800;
+    align-self: center;
+    margin-right: 15px;
+    object-fit: cover;
 }
 
 .fa-local {
@@ -409,6 +414,7 @@ footer {
     background-color: #F2F2F2;
     padding: 20px;
     gap: 15px;
+    display: flex;
 
 }
 
@@ -475,6 +481,11 @@ footer {
     background-color: white;
     padding: 0px;
 
+}
+
+.conteneur-hebergement {
+
+    display: flex;
 }
 
 
@@ -546,6 +557,115 @@ footer {
         width: 315px;
         height: 141px;
     }
+
+
+    .conteneur {
+
+        display: flex;
+        flex-direction: column;
+        height: 461px;
+
+    }
+
+    .header-logo-menu {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .conteneur-hebergement {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hebergements-and-populaires .hebergements {
+
+        background-color: white;
+    }
+
+    .hebergements .card {
+
+        background-color: white;
+        border-radius: 20px;
+        padding: 5px;
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+        margin-right: 15px;
+        margin-bottom: 30px;
+        width: 335xp;
+        height: 207.25px;
+    }
+
+    .hebergements .card img {
+
+        height: 124px;
+        width: 335px;
+        object-fit: fill;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border: 5px;
+
+
+    }
+
+    header {
+
+        display: flex;
+
+    }
+
+    .header-logo-menu {
+
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .menu {
+
+        width: 375px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+
+        width: 375px;
+        justify-content: space-between;
+        display: flex;
+        border-bottom: 2px solid #D9D9D9;
+    }
+
+    nav a {
+        display: flex;
+        width: 187.5px;
+        justify-content: center;
+    }
+
+    nav a:hover {
+        color: blue;
+        border-bottom: 2px solid blue;
+        border-top: transparent;
+    }
+
+
+    .main-container {
+
+        padding: 0px;
+    }
+
+
+    .box {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
 
     /* ... */
 }
