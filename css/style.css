@@ -120,6 +120,14 @@ button:hover {
 
 }
 
+.box-search {
+    display: flex;
+    padding-top: 30px;
+}
+
+
+
+
 .box {
 
 
@@ -199,6 +207,25 @@ a.hover.reserch {
     border: 1px;
 }
 
+.reserch-fa {
+
+    background-color: #0065FC;
+    border-color: #0065FC;
+    border-radius: 15px 15px 15px 15px;
+    width: 49px;
+    height: 49px;
+    color: white;
+    padding: 15px, 16px, 15px, 16px;
+    border: 1px;
+    visibility: hidden;
+}
+
+.fa-magnifying-glass {
+    color: white;
+}
+
+
+
 .icon-local {
 
     background-color: #D9D9D9;
@@ -230,6 +257,7 @@ input {
     width: 195px;
     height: 43px;
     border-color: #F2F2F2;
+    position: static;
 
 
 }
@@ -666,6 +694,48 @@ footer {
 
     }
 
+    .reserch {
+
+        visibility: hidden;
+    }
+
+    .hidden-responsive {
+
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .reserch-fa {
+        visibility: visible;
+        position: relative;
+        left: -15px;
+        box-shadow: 1px 2px 5px black;
+    }
+
+    .icon-local {
+        height: 50px;
+        width: 49px;
+    }
+
+    .filtre-size {
+
+        align-self: flex-start;
+        margin-bottom: 20px;
+
+    }
+
+    .button-one {
+        display: flex;
+    }
+
+    .button-two {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .description {
+        max-width: 35%;
+    }
 
     /* ... */
 }
