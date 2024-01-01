@@ -291,6 +291,7 @@ input {
     /* width: 1340px; */
     height: 559.02px;
     padding: 30px;
+    margin-bottom: 30px;
 
 
 
@@ -434,11 +435,20 @@ input {
     display: flex;
     align-items: center;
     padding-top: 30px;
+    margin-bottom: 30px;
 }
 
 .text {
     font-size: 18px;
     font-weight: 700;
+
+}
+
+.input-text {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+
 }
 
 footer {
@@ -834,6 +844,14 @@ main>section {
         border-radius: 0px;
     }
 
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
 
     /* ... */
 }
