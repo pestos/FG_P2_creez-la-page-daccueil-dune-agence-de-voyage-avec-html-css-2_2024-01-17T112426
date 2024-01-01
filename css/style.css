@@ -853,5 +853,9 @@ main>section {
         width: 100%;
     }
 
+    .card {
+        width: 100%;
+    }
+
     /* ... */
 }
