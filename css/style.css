@@ -117,7 +117,6 @@ button:hover {
 
     width: 65.09px;
     height: 20px;
-    /* padding: 30px; */
     margin: 30px;
 
 }
@@ -205,7 +204,7 @@ a.hover.reserch {
     width: 132px;
     height: 49px;
     color: white;
-    padding: 15px, 16px, 15px, 16px;
+    padding: 15px 16px 15px 16px;
     border: 1px;
 }
 
@@ -217,7 +216,7 @@ a.hover.reserch {
     width: 49px;
     height: 49px;
     color: white;
-    padding: 15px, 16px, 15px, 16px;
+    padding: 15px 16px 15px 16px;
     border: 1px;
     visibility: hidden;
 }
@@ -243,7 +242,7 @@ a.hover.reserch {
 
 .filtre-size {
 
-    font-size: 18;
+    font-size: 18px;
     font-weight: 800;
     align-self: center;
     margin-right: 15px;
@@ -286,9 +285,9 @@ input {
 /****** Activity ***********/
 
 
-.test {
+.activities {
 
-    /* width: 1340px; */
+
     height: 559.02px;
     padding: 30px;
     margin-bottom: 30px;
@@ -299,7 +298,7 @@ input {
 
 .activity .card {
 
-    /* width: 297.5px; */
+
     height: 439px;
     background-color: white;
     padding: 0px;
@@ -335,7 +334,6 @@ input {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     margin-right: 15px;
     margin-bottom: 30px;
-    /* width: 250.33px; */
     width: 100%;
     height: 207.25px;
 
@@ -359,7 +357,6 @@ input {
 
 
     height: 124px;
-    /* width: 250px; */
     width: 100%;
     object-fit: fill;
     border-top-left-radius: 20px;
@@ -430,8 +427,7 @@ input {
 }
 
 .information {
-    /* width: 890px; */
-    /* height: 50px; */
+
     display: flex;
     align-items: center;
     padding-top: 30px;
@@ -469,7 +465,6 @@ footer {
 .conteneur-activity {
 
     display: grid;
-    /* grid-template-columns: 297.5px 297.5px 297.5px 297.5px; */
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin: 30px;
@@ -482,7 +477,6 @@ footer {
 
 .conteneur-activity .card-title {
 
-    display: center;
     padding-left: 20px;
 
 
@@ -490,7 +484,7 @@ footer {
 
 .conteneur-activity .card {
 
-    /* width: 297.5px; */
+
     height: 439px;
     background-color: white;
     padding: 0px;
@@ -501,7 +495,6 @@ footer {
 .conteneur-activity img {
 
     height: 380px;
-    /* width: 297.5px; */
     object-fit: fill;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -516,7 +509,7 @@ footer {
 
 .box .card {
 
-    /* width: 297.5px; */
+
     width: 100%;
     height: 439px;
     background-color: white;
@@ -551,13 +544,11 @@ main>section {
         width: 100%;
     }
 
-    .information {
-        padding-bottom: 30px;
-    }
+
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
+
 
     }
 
@@ -608,12 +599,12 @@ main>section {
 
     }
 
-    .test .section-title {
+    .activities .section-title {
 
         padding: 30px;
     }
 
-    .test {
+    .activities {
         padding: 0px;
         height: 30%;
     }
@@ -658,6 +649,7 @@ main>section {
         display: flex;
         flex-direction: column;
         height: 100%;
+        gap: 50px;
 
     }
 
@@ -694,7 +686,6 @@ main>section {
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
         margin-right: 15px;
         margin-bottom: 30px;
-        width: 335xp;
         height: 207.25px;
     }
 
@@ -784,11 +775,13 @@ main>section {
         position: relative;
         left: -15px;
         box-shadow: 1px 2px 5px gray;
+        margin-right: 0px;
     }
 
     .icon-local {
         height: 50px;
-        width: 49px;
+        width: 50px;
+        aspect-ratio: 1/1;
     }
 
     .filtre-size {
@@ -817,7 +810,7 @@ main>section {
 
     }
 
-    .test {
+    .activities {
 
         padding: 0px;
         height: 100%;
@@ -825,17 +818,18 @@ main>section {
 
     }
 
-    .test .section-title {
+    .activities .section-title {
         padding: 30px;
+        margin-top: 40px;
     }
 
-    .test .box {
+    .activities .box {
 
         padding-top: 0px;
 
     }
 
-    .test .conteneur-activity {
+    .activities .conteneur-activity {
         margin-top: 0px;
     }
 
@@ -856,6 +850,14 @@ main>section {
     .card {
         width: 100%;
     }
+
+    input {
+        width: 100%;
+    }
+
+
+
+
 
     /* ... */
 }
