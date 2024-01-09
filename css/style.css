@@ -124,6 +124,7 @@ button:hover {
 .box-search {
     display: flex;
     padding-top: 30px;
+    height: 100%;
 }
 
 
@@ -253,16 +254,20 @@ a.hover.reserch {
     color: black;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+
+    margin: 0px;
+
+}
+
 form {
 
-    width: 195px;
+    width: 100%;
     height: 43px;
     border-color: #F2F2F2;
     position: static;
     border: none;
-    border-top: 1px solid #F2F2F2;
-    height: 100%;
-    border-bottom: 1px solid #F2F2F2;
+
 }
 
 
@@ -444,6 +449,10 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    border: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
 
 }
 
@@ -495,7 +504,7 @@ footer {
 .conteneur-activity img {
 
     height: 380px;
-    object-fit: fill;
+    object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border: 5px;
@@ -538,6 +547,7 @@ main>section {
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
+        gap: 40px;
     }
 
     .hebergements {
@@ -693,7 +703,8 @@ main>section {
 
         height: 124px;
         width: 100%;
-        object-fit: fill;
+        object-fit: cover;
+        object-position: center;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         border: 5px;
