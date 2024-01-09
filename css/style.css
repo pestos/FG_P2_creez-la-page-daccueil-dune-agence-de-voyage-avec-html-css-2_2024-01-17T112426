@@ -412,7 +412,7 @@ form {
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+    margin-bottom: 33px;
 }
 
 .populaires-cards img {
