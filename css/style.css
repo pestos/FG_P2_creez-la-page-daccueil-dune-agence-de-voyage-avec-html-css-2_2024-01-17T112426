@@ -638,6 +638,10 @@ main>section {
         height: 30%;
     }
 
+    .card img {
+        max-height: 100%;
+    }
+
 
 }
 
