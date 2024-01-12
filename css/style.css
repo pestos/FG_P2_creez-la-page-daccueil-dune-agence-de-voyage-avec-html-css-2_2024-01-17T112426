@@ -624,6 +624,7 @@ main>section {
 
     .conteneur-activity img {
         height: 100%;
+        max-height: 192px;
 
     }
 
