@@ -640,7 +640,10 @@ main>section {
 
     .card img {
         max-height: 100%;
+        overflow: hidden;
     }
+
+
 
 
 }
