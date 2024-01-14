@@ -1,4 +1,5 @@
 /****** General ***********/
+
 * {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
@@ -87,7 +88,7 @@ nav a {
 }
 
 nav a:hover {
-    color: blue;
+    color: #0065FC;
     border-top: 2px solid blue;
 }
 
@@ -384,7 +385,7 @@ form {
 
     height: 124px;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border: 5px;
